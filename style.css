@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+ul a {
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: url("./images/blurred.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 40px;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  letter-spacing: 3px;
+  margin: 20px;
+  font-size: 100%;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navbar a:link,
+.navbar a:visited {
+  color: #ebece8;
+}
+
+.navbar a:hover,
+.navbar a:active {
+  color: #75ff66;
+}
+
+body#home #navhome {
+  color: #06c40b;
+}
+
+body#about #navabout {
+  color: #06c40b;
+}
+
+body#projects #navproj {
+  color: #06c40b;
+}
+
+/* Home Page */
+
+.jumbo-container {
+  position: relative;
+  margin-top: 50px;
+  display: inline-block;
+  width: 450px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.jumbo-main {
+  margin-top: 25px;
+  color: white;
+}
+
+.home-title {
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.contact-info {
+  word-spacing: 3px;
+  letter-spacing: 2px;
+  margin: 5px;
+}
+
+#address,
+#phonenum {
+  color: yellow;
+}
+
+#location {
+  color: greenyellow;
+}
+
+#about-text {
+  color: white;
+}
+
+.footer {
+  width: 100vw;
+  height: 25px;
+  font-size: 85%;
+  padding-top: 10px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+}
+
+/* About Page */
+
+.about-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  height: 700px;
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
